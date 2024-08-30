@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "test api",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test server.js"
+  },
+  "author": "Samid",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
