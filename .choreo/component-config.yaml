@@ -1,0 +1,23 @@
+name: ecommerce
+version: 1.0.0
+description: test api
+runtime: nodejs12
+dependencies:
+  - name: express
+    version: ^4.19.2
+  - name: body-parser
+    version: ^1.20.2
+  - name: mysql2
+    version: ^3.11.0
+commands:
+  start: node server.js
+  test: npm test server.js
+environment:
+  NODE_ENV: production
+  PORT: 3000
+  DB_HOST: localhost
+  DB_USER: root
+  DB_PASS: 
+  DB_NAME: ecommerce
+author: Samid
+license: ISC
